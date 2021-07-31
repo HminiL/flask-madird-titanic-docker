@@ -51,12 +51,7 @@ class ChangeTemperatureOnMyBirthday():
                         high.append(float(i[-1]))
                         low.append(float(i[-2]))
 
-        plt.rc('font', family='Malgun Gothic')
-        plt.rcParams['axes.unicode_minus'] = False
-        plt.title("내 생일의 기온 변화 그래프")
-        plt.plot(high, 'hotpink',label='high')
-        plt.plot(low, 'skyblue', label='low')
-        plt.legend()
+
         plt.show()
 
     def visualize_data(self):
