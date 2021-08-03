@@ -31,7 +31,7 @@ class TitanicView(object):
         return this
 
     def learning(self, this):
-        print(f'사이킷런의 알고리즘 정확도 : {self.service.accuracy_by_classfier(this)}')
+        print(f'SKLearn Algorithm Accuracy is {self.service.accuracy_by_classfier(this)}')
 
     def submit(self):
         this = self.modeling()
@@ -48,3 +48,6 @@ class TitanicView(object):
         print(f'\nHead of Train is \n{this.train.head(1)} \nHead Test is \n{this.test.head(1)}')
         print(f'\nNull Count of Train is {this.train.isnull().sum()}) '
               f'\nNull Count of Test is {this.test.isnull().sum()}')
+
+if __name__ == '__main__':
+    TitanicView().submit()

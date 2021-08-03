@@ -10,8 +10,6 @@ class TitanicViewTest(unittest.TestCase):
 
         this = self.mock.modeling()
 
-    def test_submit(self):
-        self.mock.submit()
 
 if __name__ == '__main__':
     unittest.main()
