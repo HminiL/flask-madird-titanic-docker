@@ -40,7 +40,6 @@ class TitanicServiceTest(unittest.TestCase):
         return None
 
 
-
     def create_k_fold(self):
         return None
 

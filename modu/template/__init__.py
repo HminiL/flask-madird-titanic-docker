@@ -1,4 +1,4 @@
-from commom.menu import print_menu
+from common.menu import print_menu
 from modu.template.basic_plot import plot_show, plot_two_list_show, scatter
 from modu.template.canged_temperature_on_my_birthday import ChangeTemperatureOnMyBirthday
 

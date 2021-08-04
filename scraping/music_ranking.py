@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import pandas as pd
 
-from commom.menu import print_menu
+from common.menu import print_menu
 
 
 class MusicRanking(object):
